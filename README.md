@@ -4,7 +4,7 @@ Neural Style Transfer is a simple method of transferring the style of one image 
 
 **WARNING : YOU NEED A GPU TO RUN THIS LOCALLY**
 
-####If you don't have a GPU we have a Colab Notebook [here](https://colab.research.google.com/drive/13cIYAyAazgHFTo0nCyFt3vsF4nRSqgr7)
+**If you don't have a GPU we have a Colab Notebook [here](https://colab.research.google.com/drive/13cIYAyAazgHFTo0nCyFt3vsF4nRSqgr7)**
 
 > Make Sure to choose GPU Runtime : 
 >
@@ -37,7 +37,7 @@ You need only two pictures to run the model.
 
 You can choose any Image you wish. It doesn't have any restrictions on size or format.  Any format that decomposes to RGB will work like jpg, jpeg etcetra.
 
-> **LARGER THE CONTENT IMAGE, LONGER IT WILL TAKE FOR THE MODEL TO CONVERGE. **
+> LARGER THE CONTENT IMAGE, LONGER IT WILL TAKE FOR THE MODEL TO CONVERGE.
 
 Precisely For Content Image of 200x400 Pixels. Model Needs to Optimize 200x400x3 Values
 
@@ -103,7 +103,7 @@ python generate.py --help
 
 **--style_factor** determines how much style to apply to original image. Keep this value over 10. Values less than these do no generally show the style dominance in content image.
 
-> **TO GET MORE CONTROL OVER THE LAYER TO CHOOSE AND STYLE WEIGHTS YOU SHOULD DIRECTLY MODIFY THE CODE IN `generate.py` **
+> TO GET MORE CONTROL OVER THE LAYER TO CHOOSE AND STYLE WEIGHTS YOU SHOULD DIRECTLY MODIFY THE CODE IN `generate.py`
 
 After trainingon above content and style image with default hyper parameters. We got :
 
