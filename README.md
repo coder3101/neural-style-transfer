@@ -78,15 +78,15 @@ To get fine control over the results :
 
 ```bash
 python generate.py --content_image path/to/content/image.jpg \
-				    --style_image path/to/style/image.jpg \
-				    --gen_file_name name_of_output_image.jpg \
-				    --epochs 4512 \
-				    --random_init \
-				    --learning_rate 0.094 \
-				    --content_factor 0.0001 \
-				    --style_factor 1 \
-				    --optimizer 'rms' \
-				    --loss_after 500
+				--style_image path/to/style/image.jpg \
+				--gen_file_name name_of_output_image.jpg \
+				--epochs 4512 \
+				--random_init \
+				--learning_rate 0.094 \
+				--content_factor 0.0001 \
+				--style_factor 1 \
+				--optimizer 'rms' \
+				--loss_after 500
 ```
 
 To get to know what each argument does please run :
