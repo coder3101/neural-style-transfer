@@ -70,15 +70,15 @@ In order to get started with the training phase. You need to run a script called
 Simply run :
 
 ```bash
-python generate.py --content_image <path/to/content/image.jpg> \ 
-			   	   --style_image <path/to/style/image.jpg>
+python generate.py --content_image path/to/content/image.jpg \ 
+			   	   --style_image path/to/style/image.jpg
 ```
 
 To get fine control over the results :
 
 ```bash
-python generate.py --content_image <path/to/content/image.jpg> \
-				    --style_image <path/to/style/image.jpg> \
+python generate.py --content_image path/to/content/image.jpg \
+				    --style_image path/to/style/image.jpg \
 				    --gen_file_name name_of_output_image.jpg \
 				    --epochs 4512 \
 				    --random_init \
