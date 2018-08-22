@@ -1,0 +1,2 @@
+model_checkpoint_path: "vgg-19-saved"
+all_model_checkpoint_paths: "vgg-19-saved"
